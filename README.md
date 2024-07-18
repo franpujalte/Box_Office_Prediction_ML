@@ -8,7 +8,7 @@ The film industry, with its rich and intricate history, spans over a century of 
 In this project, the scope is to build a Machine Learning prediction model in order to predict revenues depending on the features of the movie. Using streamlit, features as budget, duration, cast, crew, language, countries, genres or even companies can be chosen. All the features were analyzed thoroughly, looking for missing data, modified, and an exploratory data analysis was performed before the model training.
 
 # Data
-The data was extracted from this Kaggle challenge: https://www.kaggle.com/c/tmdb-box-office-prediction
+The data was extracted from this Kaggle challenge: https://www.kaggle.com/c/tmdb-box-office-prediction.
 In it, I worked with the train.csv file, that contains more than 3000 movies and their respective data.
 
 # Structure
