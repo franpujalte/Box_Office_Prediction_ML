@@ -393,7 +393,8 @@ if st.button('Predict Revenue'):
         image = Image.open(image_path)
         st.image(image, caption="You will be rich! Congrats! Go for it :)", use_column_width=True)
     else:
-        error_amount = error * prediction
+        error_amount = round(error * prediction, 2)
+        benefit = ((prediction*1e6 - budget) / (prediction * 1e6)) * 100
         image_path = 'img/arruinado.jpg'
         image = Image.open(image_path)
         st.image(image, caption="Maybe you could try with another options...?", use_column_width=True)
